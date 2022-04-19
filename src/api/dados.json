@@ -1,0 +1,498 @@
+
+{
+  "data": [
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Landing Page",
+        "slug": "landing-page",
+        "createdAt": "2022-04-04T19:45:09.417Z",
+        "updatedAt": "2022-04-05T14:18:49.464Z",
+        "publishedAt": "2022-04-05T14:18:49.462Z",
+        "footer_text": "Feito com ❤ por Clayton Albano",
+        "sections": [
+          {
+            "id": 2,
+            "__component": "section.section-two-columns",
+            "title": "JANUARY BRINGS US FIREFOX 85",
+            "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
+            "metadata": {
+              "id": 4,
+              "name": "Home",
+              "section_id": "home",
+              "background": true
+            },
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "javascript.svg",
+                  "alternativeText": "Desenho de pessoas segurando logos do CSS, JS e HTML",
+                  "caption": "Desenho de pessoas segurando logos do CSS, JS e HTML",
+                  "width": null,
+                  "height": null,
+                  "formats": null,
+                  "hash": "javascript_c074184667",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 30.31,
+                  "url": "/uploads/javascript_c074184667.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-04-04T15:43:33.391Z",
+                  "updatedAt": "2022-04-05T13:43:38.007Z"
+                }
+              }
+            }
+          },
+          {
+            "id": 2,
+            "__component": "section.section-content",
+            "title": "NEWS COVERAGE AND SOME SURPRISES",
+            "content": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.\n\nWe’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.\n\nWe’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.",
+            "metadata": {
+              "id": 5,
+              "name": "intro",
+              "section_id": "intro",
+              "background": false
+            }
+          },
+          {
+            "id": 2,
+            "__component": "section.section-grid",
+            "title": "My Grid",
+            "description": "Atque doloribus nobis laudantium esse ut,",
+            "metadata": {
+              "id": 8,
+              "name": "grid-one",
+              "section_id": "grid-one",
+              "background": true
+            },
+            "text_grid": [
+              {
+                "id": 4,
+                "title": "Teste 1",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              },
+              {
+                "id": 5,
+                "title": "Teste 2",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              },
+              {
+                "id": 6,
+                "title": "Teste 3",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              }
+            ],
+            "image_grid": [
+
+            ]
+          },
+          {
+            "id": 4,
+            "__component": "section.section-grid",
+            "title": "Gallery",
+            "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. ",
+            "metadata": {
+              "id": 10,
+              "name": "gallery",
+              "section_id": "gallery",
+              "background": false
+            },
+            "text_grid": [
+
+            ],
+            "image_grid": [
+              {
+                "id": 2,
+                "image": {
+                  "data": {
+                    "id": 8,
+                    "attributes": {
+                      "name": "https://source.unsplash.com/random/360x360?r=5",
+                      "alternativeText": "Uma rua vazia e escura",
+                      "caption": "https://source.unsplash.com/random/360x360?r=5",
+                      "width": 360,
+                      "height": 360,
+                      "formats": {
+                        "thumbnail": {
+                          "name": "thumbnail_https://source.unsplash.com/random/360x360?r=5",
+                          "hash": "thumbnail_360x360_r_5_c447c95c17",
+                          "ext": "",
+                          "mime": "image/jpeg",
+                          "path": null,
+                          "width": 156,
+                          "height": 156,
+                          "size": 2.43,
+                          "url": "/uploads/thumbnail_360x360_r_5_c447c95c17"
+                        }
+                      },
+                      "hash": "360x360_r_5_c447c95c17",
+                      "ext": "",
+                      "mime": "image/jpeg",
+                      "size": 8.9,
+                      "url": "/uploads/360x360_r_5_c447c95c17",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2022-04-05T14:00:48.025Z",
+                      "updatedAt": "2022-04-05T14:03:59.648Z"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 3,
+                "image": {
+                  "data": {
+                    "id": 9,
+                    "attributes": {
+                      "name": "https://source.unsplash.com/random/360x360?r=6",
+                      "alternativeText": "Farol de um carro",
+                      "caption": "https://source.unsplash.com/random/360x360?r=6",
+                      "width": 360,
+                      "height": 360,
+                      "formats": {
+                        "thumbnail": {
+                          "name": "thumbnail_https://source.unsplash.com/random/360x360?r=6",
+                          "hash": "thumbnail_360x360_r_6_eb16cc867c",
+                          "ext": "",
+                          "mime": "image/jpeg",
+                          "path": null,
+                          "width": 156,
+                          "height": 156,
+                          "size": 4.81,
+                          "url": "/uploads/thumbnail_360x360_r_6_eb16cc867c"
+                        }
+                      },
+                      "hash": "360x360_r_6_eb16cc867c",
+                      "ext": "",
+                      "mime": "image/jpeg",
+                      "size": 15.73,
+                      "url": "/uploads/360x360_r_6_eb16cc867c",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2022-04-05T14:00:48.027Z",
+                      "updatedAt": "2022-04-05T14:02:55.034Z"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 4,
+                "image": {
+                  "data": {
+                    "id": 7,
+                    "attributes": {
+                      "name": "https://source.unsplash.com/random/360x360?r=1",
+                      "alternativeText": "https://source.unsplash.com/random/360x360?r=1",
+                      "caption": "https://source.unsplash.com/random/360x360?r=1",
+                      "width": 360,
+                      "height": 360,
+                      "formats": {
+                        "thumbnail": {
+                          "name": "thumbnail_https://source.unsplash.com/random/360x360?r=1",
+                          "hash": "thumbnail_360x360_r_1_4d1ff3dd07",
+                          "ext": "",
+                          "mime": "image/jpeg",
+                          "path": null,
+                          "width": 156,
+                          "height": 156,
+                          "size": 5.87,
+                          "url": "/uploads/thumbnail_360x360_r_1_4d1ff3dd07"
+                        }
+                      },
+                      "hash": "360x360_r_1_4d1ff3dd07",
+                      "ext": "",
+                      "mime": "image/jpeg",
+                      "size": 19.56,
+                      "url": "/uploads/360x360_r_1_4d1ff3dd07",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2022-04-05T14:00:48.019Z",
+                      "updatedAt": "2022-04-05T14:00:48.019Z"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 5,
+                "image": {
+                  "data": {
+                    "id": 6,
+                    "attributes": {
+                      "name": "https://source.unsplash.com/random/360x360?r=3",
+                      "alternativeText": "https://source.unsplash.com/random/360x360?r=3",
+                      "caption": "https://source.unsplash.com/random/360x360?r=3",
+                      "width": 360,
+                      "height": 360,
+                      "formats": {
+                        "thumbnail": {
+                          "name": "thumbnail_https://source.unsplash.com/random/360x360?r=3",
+                          "hash": "thumbnail_360x360_r_3_74f2dec9af",
+                          "ext": "",
+                          "mime": "image/jpeg",
+                          "path": null,
+                          "width": 156,
+                          "height": 156,
+                          "size": 4.59,
+                          "url": "/uploads/thumbnail_360x360_r_3_74f2dec9af"
+                        }
+                      },
+                      "hash": "360x360_r_3_74f2dec9af",
+                      "ext": "",
+                      "mime": "image/jpeg",
+                      "size": 18.89,
+                      "url": "/uploads/360x360_r_3_74f2dec9af",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2022-04-05T14:00:48.016Z",
+                      "updatedAt": "2022-04-05T14:00:48.016Z"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 6,
+                "image": {
+                  "data": {
+                    "id": 5,
+                    "attributes": {
+                      "name": "https://source.unsplash.com/random/360x360?r=2",
+                      "alternativeText": "https://source.unsplash.com/random/360x360?r=2",
+                      "caption": "https://source.unsplash.com/random/360x360?r=2",
+                      "width": 360,
+                      "height": 360,
+                      "formats": {
+                        "thumbnail": {
+                          "name": "thumbnail_https://source.unsplash.com/random/360x360?r=2",
+                          "hash": "thumbnail_360x360_r_2_8474a36561",
+                          "ext": "",
+                          "mime": "image/jpeg",
+                          "path": null,
+                          "width": 156,
+                          "height": 156,
+                          "size": 4.64,
+                          "url": "/uploads/thumbnail_360x360_r_2_8474a36561"
+                        }
+                      },
+                      "hash": "360x360_r_2_8474a36561",
+                      "ext": "",
+                      "mime": "image/jpeg",
+                      "size": 21.86,
+                      "url": "/uploads/360x360_r_2_8474a36561",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2022-04-05T14:00:48.007Z",
+                      "updatedAt": "2022-04-05T14:00:48.007Z"
+                    }
+                  }
+                }
+              },
+              {
+                "id": 7,
+                "image": {
+                  "data": {
+                    "id": 4,
+                    "attributes": {
+                      "name": "https://source.unsplash.com/random/360x360?r=3",
+                      "alternativeText": "https://source.unsplash.com/random/360x360?r=3",
+                      "caption": "https://source.unsplash.com/random/360x360?r=3",
+                      "width": 360,
+                      "height": 360,
+                      "formats": {
+                        "thumbnail": {
+                          "name": "thumbnail_https://source.unsplash.com/random/360x360?r=3",
+                          "hash": "thumbnail_360x360_r_3_77a32b73e1",
+                          "ext": "",
+                          "mime": "image/jpeg",
+                          "path": null,
+                          "width": 156,
+                          "height": 156,
+                          "size": 5.65,
+                          "url": "/uploads/thumbnail_360x360_r_3_77a32b73e1"
+                        }
+                      },
+                      "hash": "360x360_r_3_77a32b73e1",
+                      "ext": "",
+                      "mime": "image/jpeg",
+                      "size": 17.95,
+                      "url": "/uploads/360x360_r_3_77a32b73e1",
+                      "previewUrl": null,
+                      "provider": "local",
+                      "provider_metadata": null,
+                      "createdAt": "2022-04-05T14:00:48.005Z",
+                      "updatedAt": "2022-04-05T14:00:48.005Z"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "__component": "section.section-grid",
+            "title": "Outra Grid",
+            "description": "Atque doloribus nobis laudantium esse ut, non commodi maxime",
+            "metadata": {
+              "id": 9,
+              "name": "grid-two",
+              "section_id": "grid-two",
+              "background": true
+            },
+            "text_grid": [
+              {
+                "id": 7,
+                "title": "Teste 1",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              },
+              {
+                "id": 8,
+                "title": "Teste 2",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              },
+              {
+                "id": 9,
+                "title": "Teste 3",
+                "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
+              }
+            ],
+            "image_grid": [
+
+            ]
+          },
+          {
+            "id": 3,
+            "__component": "section.section-content",
+            "title": "Pricing",
+            "content": "PRICING\nThe release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.\n\nWe’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.\n\nPricing table\nTitle 1\tTitle 2\tTitle 3\tTitle 4\tTitle 5\nContent 1\tContent 2\tContent 3\tContent 3\tContent 3\nContent 1\tContent 2\tContent 3\tContent 3\tContent 3\nContent 1\tContent 2\tContent 3\tContent 3\tContent 3\nTestando",
+            "metadata": {
+              "id": 6,
+              "name": "pricing",
+              "section_id": "pricing",
+              "background": false
+            }
+          },
+          {
+            "id": 3,
+            "__component": "section.section-two-columns",
+            "title": "JANUARY BRINGS US FIREFOX 85",
+            "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.\n\n",
+            "metadata": {
+              "id": 7,
+              "name": "contact",
+              "section_id": "contact",
+              "background": true
+            },
+            "image": {
+              "data": {
+                "id": 1,
+                "attributes": {
+                  "name": "javascript.svg",
+                  "alternativeText": "Desenho de pessoas segurando logos do CSS, JS e HTML",
+                  "caption": "Desenho de pessoas segurando logos do CSS, JS e HTML",
+                  "width": null,
+                  "height": null,
+                  "formats": null,
+                  "hash": "javascript_c074184667",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 30.31,
+                  "url": "/uploads/javascript_c074184667.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-04-04T15:43:33.391Z",
+                  "updatedAt": "2022-04-05T13:43:38.007Z"
+                }
+              }
+            }
+          }
+        ],
+        "Menu": [
+          {
+            "id": 2,
+            "logo_text": "Landing Page",
+            "logo_link": "#home",
+            "open_in_new_tab": false,
+            "logo": {
+              "data": {
+                "id": 3,
+                "attributes": {
+                  "name": "logo.svg",
+                  "alternativeText": "logo.svg",
+                  "caption": "logo.svg",
+                  "width": null,
+                  "height": null,
+                  "formats": null,
+                  "hash": "logo_48014c5df1",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 2.51,
+                  "url": "/uploads/logo_48014c5df1.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2022-04-04T19:42:04.070Z",
+                  "updatedAt": "2022-04-04T19:42:55.070Z"
+                }
+              }
+            },
+            "menu_link": [
+              {
+                "id": 6,
+                "open_in_new_tab": false,
+                "link_text": "intro",
+                "url": "#intro"
+              },
+              {
+                "id": 7,
+                "open_in_new_tab": false,
+                "link_text": "grid-one",
+                "url": "#grid-one"
+              },
+              {
+                "id": 8,
+                "open_in_new_tab": false,
+                "link_text": "gallery",
+                "url": "#gallery"
+              },
+              {
+                "id": 9,
+                "open_in_new_tab": false,
+                "link_text": "grid-two",
+                "url": "#grid-two"
+              },
+              {
+                "id": 10,
+                "open_in_new_tab": false,
+                "link_text": "pricing",
+                "url": "#pricing"
+              },
+              {
+                "id": 11,
+                "open_in_new_tab": false,
+                "link_text": "contact",
+                "url": "#contact"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 25,
+      "pageCount": 1,
+      "total": 1
+    }
+  }
+}
