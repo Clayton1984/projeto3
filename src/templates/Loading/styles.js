@@ -38,7 +38,7 @@ export const Container = styled.div`
       height: 6rem;
       border-left: 0.5rem solid ${theme.colors.secondaryColor};
       border-top: 0.5rem solid ${theme.colors.secondaryColor};
-      animation: ${rotate()} 1s linear infinite;
+      animation: ${rotate()} 600ms linear infinite;
     }
     &:before {
       width: 2rem;
